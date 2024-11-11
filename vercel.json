@@ -1,11 +1,5 @@
 {
-  "name": "tugastst-api",
-  "version": "1.0.0",
-  "main": "api/app.js",
-  "scripts": {
-    "start": "node api/app.js"
-  },
-  "dependencies": {
-    "express": "^4.21.1"
-  }
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/$1" }
+  ]
 }
