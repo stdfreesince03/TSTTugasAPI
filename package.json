@@ -1,14 +1,22 @@
 {
   "name": "tugastst-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A simple Express API for testing and deployment",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Winata Tristan",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
