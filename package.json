@@ -2,9 +2,13 @@
   "name": "tugastst-api",
   "version": "1.0.0",
   "description": "Simple API for Vercel",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
   "author": "Winata Tristan",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.17.1"
   }
 }
